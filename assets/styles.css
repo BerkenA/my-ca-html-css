@@ -1,3 +1,48 @@
+:root {
+    --primary: #1E1E1E;
+    --secondary: #FFFFFF;
+    --tertiary: #285641;
+    --quadratory: #FABE79;
+}
+
 * {
-    font-family: font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 16px;
+}
+
+.burger-menu {
+    margin-left: 16px;
+    margin-right: 24px;
+}
+
+.language-en {
+    margin-right: 16px;
+}
+
+.logo-rain {
+    margin-left: 38px;
+}
+
+.heart-favourite {
+    margin-left: 24px;
+    margin-right: 16px;
+}
+
+.search-glass {
+    margin-right: 16px;
+}
+.bag-checkout {
+    margin-right: 16px;
 }
