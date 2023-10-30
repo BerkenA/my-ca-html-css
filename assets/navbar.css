@@ -73,7 +73,9 @@ nav {
         display: flex;
         width: 100vw;
         justify-content: center;
-        gap: 3rem; 
+        gap: 3rem;
+        font-size: 1.3rem;
+        font-weight: 400;
     }
 
     .navbar-icons {
