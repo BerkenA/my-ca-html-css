@@ -1,0 +1,55 @@
+:root {
+    --primary: #1E1E1E;
+    --secondary: #FFFFFF;
+    --tertiary: #285641;
+    --quadratory: #FABE79;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.main-picture-home {
+    display: flex;
+    justify-content: center;
+}
+
+.main-picture-home img {
+    width: 100vw;
+    z-index: 1;
+    position: relative;
+}
+
+.main-picture-home p {
+    position: absolute;
+    z-index: 2;
+    font-size: 24px;
+    color: var(--secondary);
+}
+
+.free-shipping {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.first-advantage {
+    display: flex;
+    min-width: 50%;
+    align-items: center;
+    gap: 16px;
+    margin-left: 16px;
+}
+
+.second-advantage {
+    display: flex;
+    min-width: 50%;
+    align-items: center;
+    gap: 16px;
+    margin-left: 16px;
+}

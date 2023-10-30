@@ -41,6 +41,7 @@ nav {
 
 .navbar-icons {
     display: flex;
+    margin-right: 16px;
 }
 
 .heart-favourite {
@@ -65,6 +66,12 @@ nav {
         padding-bottom: 16px;
     }
 
+    a {
+        text-decoration: none;
+        color: var(--primary);
+        font-family: 'Roboto', sans-serif;
+    }
+
     .burger-menu, .language-en {
         display: none;
     }
@@ -80,11 +87,5 @@ nav {
 
     .navbar-icons {
         display: flex;
-    }
-
-    a {
-        text-decoration: none;
-        color: var(--primary);
-        font-family: 'Roboto', sans-serif;
     }
 }
