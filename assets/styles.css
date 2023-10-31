@@ -69,46 +69,35 @@ body {
 }
 
 .popular-jackets {
-    display: block;
-    text-align: center;
+    display: flex;
     background-color: var(--jackets);
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .popular-jackets h2 {
+    /* display: flex; */
     margin: 0;
     padding: 8px 0 16px 0;
 }
 
-.popular-jackets img {
-    width: 192px;
-    height: 234px;
+.products-carussell {
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
     margin-left: 16px;
 }
 
-.products-carussell {
-    display: flex;
-    position: relative;
+.products-carussell h3 {
+    color: var(--tertiary);
 }
 
 .heart-one {
-    position: absolute;
-    top: 16px;
-    right: 8px;
+
 }
-
-.work-jacket {
-    position: relative;
-}
-
-.hearth-shape {
-    position: absolute;
-    top: 16px;
-    right: 8px;
-}
-
-
-
-
 
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
