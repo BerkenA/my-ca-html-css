@@ -12,20 +12,23 @@
 
 body {
     margin: 0;
+    overflow: hidden;
 }
 
 .main-picture-home {
     display: flex;
     justify-content: center;
+    max-height: 350px;
+    object-fit: fill;
 }
 
 .main-picture-home img {
-    width: 100vw;
+    width: 100%;
     z-index: 1;
     position: relative;
 }
 
-.main-picture-home p {
+.main-picture-home h1 {
     position: absolute;
     z-index: 2;
     font-size: 24px;
@@ -40,10 +43,16 @@ body {
 
 .first-advantage {
     display: flex;
-    min-width: 50%;
+    min-width: 40%;
+    width: 215px;
     align-items: center;
     gap: 16px;
     margin-left: 16px;
+    white-space: nowrap;
+}
+
+.first-advantage p {
+    font-size: 24px;
 }
 
 .second-advantage {
@@ -51,5 +60,18 @@ body {
     min-width: 50%;
     align-items: center;
     gap: 16px;
-    margin-left: 16px;
+    padding-left: 32px;
+}
+
+.second-advantage p {
+    font-size: 24px;
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* Your styles for the extra large breakpoint here */
+    
+    .free-shipping {
+        display: none;
+    }
 }
