@@ -3,6 +3,7 @@
     --secondary: #FFFFFF;
     --tertiary: #285641;
     --quadratory: #FABE79;
+    --jackets: #EBEBEB;
 }
 
 * {
@@ -92,10 +93,6 @@ nav {
         gap: 3rem;
         font-size: 1.3rem;
         font-weight: 400;
-    }
-
-    .home-page:hover {
-        font-weight: bold;
     }
 
     .desktop-menu:hover {

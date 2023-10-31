@@ -3,6 +3,7 @@
     --secondary: #FFFFFF;
     --tertiary: #285641;
     --quadratory: #FABE79;
+    --jackets: #EBEBEB;
 }
 
 * {
@@ -24,13 +25,13 @@ body {
 
 .main-picture-home img {
     width: 100%;
-    z-index: 1;
+    z-index: 5;
     position: relative;
 }
 
 .main-picture-home h1 {
     position: absolute;
-    z-index: 2;
+    z-index: 10;
     font-size: 24px;
     color: var(--secondary);
 }
@@ -66,6 +67,48 @@ body {
 .second-advantage p {
     font-size: 24px;
 }
+
+.popular-jackets {
+    display: block;
+    text-align: center;
+    background-color: var(--jackets);
+}
+
+.popular-jackets h2 {
+    margin: 0;
+    padding: 8px 0 16px 0;
+}
+
+.popular-jackets img {
+    width: 192px;
+    height: 234px;
+    margin-left: 16px;
+}
+
+.products-carussell {
+    display: flex;
+    position: relative;
+}
+
+.heart-one {
+    position: absolute;
+    top: 16px;
+    right: 8px;
+}
+
+.work-jacket {
+    position: relative;
+}
+
+.hearth-shape {
+    position: absolute;
+    top: 16px;
+    right: 8px;
+}
+
+
+
+
 
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
