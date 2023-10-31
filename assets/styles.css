@@ -104,6 +104,7 @@ body {
     max-height: 652px;
     object-fit: fill;
     padding-top: 32px;
+    width: 100%;
 }
 
 .second-pic-home img {
