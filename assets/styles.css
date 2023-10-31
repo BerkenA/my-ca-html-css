@@ -77,14 +77,12 @@ body {
 }
 
 .popular-jackets h2 {
-    /* display: flex; */
     margin: 0;
     padding: 8px 0 16px 0;
 }
 
 .products-carussell {
     display: flex;
-    width: 100%;
     position: relative;
     top: 0;
     left: 0;
@@ -93,11 +91,35 @@ body {
 
 .products-carussell h3 {
     color: var(--tertiary);
+    font-size: 20px;
 }
 
-.heart-one {
-
+.products-carussell h4 {
+    font-size: 16px;
 }
+
+.second-pic-home {
+    display: flex;
+    justify-content: center;
+    max-height: 652px;
+    object-fit: fill;
+    padding-top: 32px;
+}
+
+.second-pic-home img {
+    width: 100%;
+    z-index: 5;
+    position: relative;
+    display: flex;
+}
+
+.second-pic-home h1 {
+    position: absolute;
+    z-index: 10;
+    font-size: 24px;
+    color: var(--secondary);
+}
+
 
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
