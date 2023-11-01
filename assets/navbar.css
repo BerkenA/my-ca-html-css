@@ -15,12 +15,19 @@ body {
     margin: 0;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 12;
+    background-color: #FFFFFF;
+}
+
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    margin-top: 16px;
+    padding: 16px;
 }
 
 .burger-menu {

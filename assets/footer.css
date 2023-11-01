@@ -3,6 +3,8 @@
     --secondary: #FFFFFF;
     --tertiary: #285641;
     --quadratory: #FABE79;
+    --jackets: #EBEBEB;
+    --discount: #E54B33;
 }
 
 * {
@@ -17,7 +19,8 @@ body {
 .top-footer {
     border-top: 1px solid var(--primary);
     border-bottom: 1px solid var(--primary);
-    margin: 0 16px 16px 16px;
+    margin: 56px 16px 16px 16px;
+    padding-bottom: 32px;
 }
 
 .sections {

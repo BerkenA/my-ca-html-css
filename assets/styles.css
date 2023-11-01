@@ -4,6 +4,7 @@
     --tertiary: #285641;
     --quadratory: #FABE79;
     --jackets: #EBEBEB;
+    --discount: #E54B33;
 }
 
 * {
@@ -14,6 +15,7 @@
 body {
     margin: 0;
     overflow: hidden;
+    overflow: scroll;
 }
 
 .main-picture-home {
@@ -34,6 +36,7 @@ body {
     z-index: 10;
     font-size: 24px;
     color: var(--secondary);
+    font-weight: lighter;
 }
 
 .free-shipping {
@@ -72,12 +75,13 @@ body {
     display: flex;
     background-color: var(--jackets);
     justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center;
 }
 
 .popular-jackets h2 {
     margin: 0;
+    display: flex;
     padding: 8px 0 16px 0;
 }
 
@@ -95,7 +99,7 @@ body {
 }
 
 .products-carussell h4 {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .second-pic-home {
@@ -103,7 +107,7 @@ body {
     justify-content: center;
     max-height: 652px;
     object-fit: fill;
-    padding-top: 32px;
+    padding: 32px 0 32px 0;
     width: 100%;
 }
 
@@ -114,19 +118,81 @@ body {
     display: flex;
 }
 
-.second-pic-home h1 {
+.second-pic-home h2 {
     position: absolute;
     z-index: 10;
     font-size: 24px;
     color: var(--secondary);
+    font-weight: lighter;
 }
 
+.sales-jackets {
+    display: flex;
+    background-color: var(--jackets);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sales-jackets h2 {
+    margin: 0;
+    padding: 8px 0 16px 0;
+}
+
+.sales-carussell {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 16px;
+}
+
+.sales-carussell h3 {
+    color: var(--tertiary);
+    font-size: 20px;
+}
+
+.sales-carussell h4 {
+    font-size: 20px;
+}
+
+.container-second div {
+    text-decoration: line-through;
+}
+
+.container-second span {
+    color: var(--discount);
+}
+
+.elite-jacket div {
+    text-decoration: line-through;
+}
+
+.elite-jacket span {
+    color: var(--discount);
+}
+
+.sales-desktop {
+    display: none;
+}
 
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
     /* Your styles for the extra large breakpoint here */
-    
     .free-shipping {
         display: none;
     }
+    
+    .popular-jackets {
+        margin-top: 32px;
+    }
+
+    .top-footer li {
+        font-size: 24px;
+    }
+
+    .sales-desktop {
+        display:flex;
+    }
+
 }
