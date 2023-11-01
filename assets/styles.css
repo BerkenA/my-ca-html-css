@@ -18,6 +18,7 @@ body {
     overflow: scroll;
 }
 
+/* Here are my styles for my main picture */
 .main-picture-home {
     display: flex;
     justify-content: center;
@@ -39,6 +40,7 @@ body {
     font-weight: lighter;
 }
 
+/* Styles for my free shipping and top quality */
 .free-shipping {
     display: flex;
     gap: 1rem;
@@ -71,80 +73,93 @@ body {
     font-size: 24px;
 }
 
+/* Here is the styles for my popular jackets */
+.jackets-section {
+    overflow: hidden;
+}
+
 .popular-jackets {
     display: flex;
     background-color: var(--jackets);
-    justify-content: center;
-    /* flex-direction: column; */
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .popular-jackets h2 {
     margin: 0;
-    display: flex;
     padding: 8px 0 16px 0;
+    font-size: 1.5em;
+    align-self: center;
 }
 
-.products-carussell {
-    display: flex;
+/* These are my styles for my hearts */
+.heart-two {
     position: relative;
-    top: 0;
-    left: 0;
-    margin-left: 16px;
 }
 
-.products-carussell h3 {
-    color: var(--tertiary);
-    font-size: 20px;
+.heart-one {
+    position: absolute;
 }
 
-.products-carussell h4 {
-    font-size: 20px;
-}
-
+/* These are the styles for my secondary picture */
 .second-pic-home {
+    position: relative;
     display: flex;
     justify-content: center;
     max-height: 652px;
     object-fit: fill;
-    padding: 32px 0 32px 0;
+    padding: 2rem 0 2rem 0;
     width: 100%;
 }
 
 .second-pic-home img {
     width: 100%;
-    z-index: 5;
-    position: relative;
     display: flex;
 }
 
 .second-pic-home h2 {
     position: absolute;
-    z-index: 10;
     font-size: 24px;
     color: var(--secondary);
     font-weight: lighter;
 }
 
+.buttons-shop {
+    display: flex;
+    position: absolute;
+    gap: 1rem;
+    bottom: 80px;
+}
+
+.buttons-shop button {
+    color: var(--primary);
+    background-color: var(--quadratory);
+    width: 183px;
+    height: 45px;
+}
+
+/* These are my styles for my sales jackets */
 .sales-jackets {
     display: flex;
     background-color: var(--jackets);
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    overflow: hidden;
 }
 
 .sales-jackets h2 {
     margin: 0;
     padding: 8px 0 16px 0;
+    align-self: center;
 }
 
 .sales-carussell {
     display: flex;
-    position: relative;
     top: 0;
     left: 0;
     margin-left: 16px;
+    gap: 1rem;
+    overflow: hidden;
 }
 
 .sales-carussell h3 {
@@ -156,6 +171,15 @@ body {
     font-size: 20px;
 }
 
+.work-jacket {
+    position: relative;
+}
+
+.heart-shape {
+    position: absolute;
+    z-index: 1;
+}
+
 .container-second div {
     text-decoration: line-through;
 }
@@ -164,35 +188,58 @@ body {
     color: var(--discount);
 }
 
-.elite-jacket div {
-    text-decoration: line-through;
+.heart-shape {
+    position: absolute;
+}
+
+.elite-jacket {
+    position: relative;
 }
 
 .elite-jacket span {
     color: var(--discount);
 }
 
-.sales-desktop {
-    display: none;
-}
 
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
     /* Your styles for the extra large breakpoint here */
+    .top-footer li {
+        font-size: 24px;
+    }
+
+    .sales-carussell {
+        gap: 3rem;
+    }
+    
     .free-shipping {
         display: none;
     }
     
     .popular-jackets {
         margin-top: 32px;
+        display: flex;
+        align-items: center;
     }
 
-    .top-footer li {
-        font-size: 24px;
+    .sales-jackets {
+        display: flex;
+        align-items: center;
     }
 
-    .sales-desktop {
-        display:flex;
+    .buttons-shop {
+        width: 100%;
+        justify-content: space-evenly;
     }
 
+    .buttons-shop button {
+        font-size: 1rem;
+        width: 300px;
+        height: 60px;
+    }
+
+    .buttons-shop button:hover {
+        cursor: pointer;
+        background-color: #FFE2C0;
+    }
 }

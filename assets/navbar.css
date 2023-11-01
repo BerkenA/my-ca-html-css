@@ -106,6 +106,30 @@ nav {
         cursor: pointer;
     }
 
+    .home-page:hover {
+        text-decoration: underline;
+    }
+
+    .men-jacket:hover {
+        text-decoration: underline;
+    }
+
+    .women-jacket:hover {
+        text-decoration: underline;
+    }
+
+    .about-us:hover {
+        text-decoration: underline;
+    }
+
+    .contact-us:hover {
+        text-decoration: underline;
+    }
+
+    .loc-ations:hover {
+        text-decoration: underline;
+    }
+
     .navbar-icons {
         display: flex;
     }
