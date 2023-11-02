@@ -46,3 +46,11 @@ body {
     justify-content: center;
     gap: 24px;
 }
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* Your styles for the extra large breakpoint here */
+    .top-footer li {
+        font-size: 24px;
+    }
+}
