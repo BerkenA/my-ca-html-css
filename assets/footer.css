@@ -53,9 +53,4 @@ body {
     .top-footer li {
         font-size: 24px;
     }
-
-    .sales-carusell {
-        display: flex;
-        flex-direction: row;
-    }
 }
