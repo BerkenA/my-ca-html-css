@@ -1,0 +1,98 @@
+:root {
+    --primary: #1E1E1E;
+    --secondary: #FFFFFF;
+    --tertiary: #285641;
+    --quadratory: #FABE79;
+    --jackets: #EBEBEB;
+    --discount: #E54B33;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+.product-image {
+    display: flex;
+    justify-content: center;
+    padding: 0 16px 0 16px;
+}
+
+.product-image img {
+    width: 100vw;
+}
+
+.product-info {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.product-info h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--tertiary);
+    margin: 24px 0 16px 16px;
+}
+
+.former-price {
+    display: flex;
+    justify-content: flex-start;
+    width: 227px;
+    height: 41px;
+    margin: 0 0 0 16px;
+    gap: 24px;
+}
+
+.former-price p {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.specific-sizes {
+    width: 398px;
+    height: 48px;
+}
+
+.specific-sizes ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px; 
+    font-size: 20px;
+    margin: 16px 0 0 16px;
+    padding: 0;
+}
+
+.specific-sizes li {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    margin: 16px 0 16px 16px;
+}
+
+form select {
+    width: 60px;
+    height: 54px;
+    font-size: 2rem;
+}
+
+form input {
+    width: 330px;
+    height: 54px;
+    margin-left: 8px;
+    font-size: 32px;
+    background-color: var(--tertiary);
+    color: var(--secondary);
+    border: 1px solid var(--primary);
+}
