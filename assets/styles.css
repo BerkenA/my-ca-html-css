@@ -40,6 +40,10 @@ body {
     font-weight: lighter;
 }
 
+.big-screen img {
+    display: none;
+}
+
 /* Styles for my free shipping and top quality */
 .free-shipping {
     display: flex;
@@ -138,6 +142,12 @@ body {
     height: 45px;
 }
 
+.picture-second img {
+    display: none;
+}
+
+
+
 /* These are my styles for my sales jackets */
 .sales-jackets {
     display: flex;
@@ -157,7 +167,7 @@ body {
     display: flex;
     top: 0;
     left: 0;
-    margin-left: 16px;
+    margin: 0 16px 0 16px;
     gap: 1rem;
     overflow: hidden;
 }
@@ -208,8 +218,37 @@ body {
         font-size: 24px;
     }
 
+    .main-picture-home img {
+        display: none;
+    }
+
+    .main-picture-home h1 {
+        color: var(--primary);
+    }
+
+    .big-screen img {
+        display: flex;
+        object-fit: fill;
+        height: 382px;
+        width: 100vw;
+    }
+
     .sales-carussell {
         gap: 3rem;
+    }
+
+    .second-pic-home img {
+        display: none;
+    }
+
+    .picture-second img {
+        display: flex;
+        height: 382px;
+        width: 100vw;
+    }
+
+    .second-pic-home h2 {
+        color: var(--primary);
     }
     
     .free-shipping {
