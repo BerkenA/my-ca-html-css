@@ -97,10 +97,6 @@ body {
 }
 
 /* These are my styles for my hearts */
-.heart-two {
-    position: relative;
-}
-
 .heart-one {
     position: absolute;
 }
