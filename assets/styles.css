@@ -214,16 +214,13 @@ body {
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
     /* Your styles for the extra large breakpoint here */
-    .top-footer li {
-        font-size: 24px;
-    }
-
     .main-picture-home img {
         display: none;
     }
 
     .main-picture-home h1 {
         color: var(--primary);
+        font-size: 2rem;
     }
 
     .big-screen img {
@@ -249,6 +246,7 @@ body {
 
     .second-pic-home h2 {
         color: var(--primary);
+        font-size: 2rem;
     }
     
     .free-shipping {
