@@ -62,83 +62,123 @@
     </header>
 
     <main>
+
       <div class="checkout-order">
         <h2>Your order</h2>
         <div class="rainy-fem">
           <img
             src="assets/images/red-jacket.png"
-            alt="rainyfem bergans red jacket"/>
-            <div class="jacket-amount">
-              <div>
-                <p>RainyFem</p>
-                <p>Bergans</p>
-                <p>S</p>
-              </div>
-
-              <span>
-                <p>Amount: 1</p>
-                <p>3500kr</p>
-                <p>2100kr</p>
-              </span>
+            alt="rainyfem bergans red jacket"
+          />
+          <div class="jacket-amount">
+            <div>
+              <p>RainyFem</p>
+              <p>Bergans</p>
+              <p>S</p>
             </div>
+
+            <span>
+              <p>Amount: 1</p>
+              <p>3500kr</p>
+              <p>2100kr</p>
+            </span>
+          </div>
         </div>
+
         <div class="elite-jacket">
           <img
             src="assets/images/biker-jacket.png"
             alt="elite jacket helly hansen grey"
           />
-                     <div class="jacket-text">
-                        <div>
-                            <p>Elite Jacket</p>
-                            <p>Helly Hansen</p>
-                            <p>M</p>
-                        </div>
-                        <span>
-                            <p>Amount: 1</p>
-                            <p>3500kr</p>
-                        </span>
-                    </div>
+          <div class="jacket-text">
+            <div>
+              <p>Elite Jacket</p>
+              <p>Helly Hansen</p>
+              <p>M</p>
             </div>
+            <span>
+              <p>Amount: 1</p>
+              <p>3500kr</p>
+            </span>
+          </div>
+        </div>
       </div>
+
       <div class="shipping-free">
         <div>
-            <p>Shipping:</p>
+          <p>Shipping:</p>
         </div>
         <span>
-            <p>Free</p>
+          <p>Free</p>
         </span>
-    </div>
+      </div>
+
       <div class="price-total">
         <div>
-            <p>Your total:</p>
+          <p>Your total:</p>
         </div>
         <span>
-            <p>5600kr</p>
+          <p>5600kr</p>
         </span>
+      </div>
+      <div class="bill-info">
+      <h2>Billing information</h2>
     </div>
-
-    <h2>Billing information</h2>
-    <form>
+      <form>
         <h4>First name*</h4>
-        <input>
+        <input label="first name" />
         <h4>Last name*</h4>
-        <input>
+        <input label="last name" />
         <h4>Country / region*</h4>
         <select></select>
-        <input placeholder="Norway">
+        <input label="country and region" placeholder="Norway" />
         <h4>Street adress*</h4>
-        <input placeholder="House number and street name">
+        <input
+          label="street adress"
+          placeholder="House number and street name"
+        />
         <h4>Post code / ZIP*</h4>
-        <input>
+        <input label="post code or zip" />
         <h4>Town / city*</h4>
-        <input>
+        <input label="town or city" />
         <h4>Phone*</h4>
-        <input>
+        <input label="Phone" />
         <h4>Email adress*</h4>
-        <input>
+        <input label="email adress" placeholder="mail@example.com" />
+      </form>
 
-    </form>
+      <form class="buttons-radio">
+        <input
+          name="radio"
+          label="pay with vipps"
+          class="radio-select"
+          type="radio"
+        />
+        <p>Pay with vipps</p>
+        <br />
+        <input
+          name="radio"
+          label="pay with credit card"
+          class="radio-select"
+          type="radio"
+        />
+        <p>Pay with credit card</p>
+        <br />
+        <input
+          name="radio"
+          label="pay with klarna"
+          class="radio-select"
+          type="radio"
+        />
+        <p>Pay with klarna</p>
+      </form>
 
+      <a class="check-succ" href="checkout-success.html">
+        <img
+          src="assets/logo/vipps-button.png"
+          alt="final payment pay with vipps"
+        />
+      </a>
     </main>
 
     <footer>

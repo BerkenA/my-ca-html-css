@@ -22,6 +22,10 @@ body {
     font-size: 1rem;
 }
 
+.checkout-order h2 {
+    margin-left: 1rem;
+}
+
 .rainy-fem {
     display: flex;
     border-top: 1px solid var(--primary);
@@ -136,10 +140,38 @@ select {
     background-color: var(--jackets);
 }
 
+.bill-info {
+    margin-left: 1rem;
+}
+
+form {
+    margin: 0 1rem 0 1rem;
+}
+
 form select {
     display: flex;
 }
 
 
+.radio-select {
+    margin-top: 1rem;
+    width: 20px;
+    height: 20px;
+}
 
+.buttons-radio {
+    margin: 0 1rem 1rem 1rem;
+}
+
+.buttons-radio p {
+    display: inline;
+}
+
+.buttons-radio input {
+    margin-top: 1rem;
+}
+
+.check-succ img {
+    margin: 0 1rem 0 1rem;
+}
 
