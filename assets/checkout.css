@@ -1,0 +1,145 @@
+:root {
+    --primary: #1E1E1E;
+    --secondary: #FFFFFF;
+    --tertiary: #285641;
+    --quadratory: #FABE79;
+    --jackets: #EBEBEB;
+    --discount: #E54B33;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+.checkout-order p {
+    font-size: 1rem;
+}
+
+.rainy-fem {
+    display: flex;
+    border-top: 1px solid var(--primary);
+}
+
+.rainy-fem img {
+    margin: 1rem 0 1rem 1rem;
+}
+
+.elite-jacket {
+    display: flex;
+    border-top: 1px solid var(--primary);
+}
+
+.elite-jacket img {
+    margin: 1rem 0 1rem 1rem;
+}
+
+.jacket-amount  {
+    display: flex;
+    gap: 3rem;
+}
+
+.jacket-amount div :nth-child(1) {
+    font-weight: bold;
+}
+
+.jacket-amount span :nth-child(2) {
+    text-decoration: line-through;
+}
+
+.jacket-amount span :nth-child(1) {
+    font-weight: bold;
+}
+
+.jacket-amount span :nth-child(3) {
+    color: var(--discount);
+    font-weight: bold;
+}
+
+.elite-jacket {
+    border-bottom: 1px solid var(--primary);
+}
+
+.jacket-text {
+    display: flex;
+    gap: 3rem;
+}
+
+.jacket-text span {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.jacket-text span :nth-child(1) {
+    font-weight: bold;
+}
+
+.jacket-text div :nth-child(1) {
+    font-weight: bold;
+}
+
+.shipping-free {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid var(--primary);
+}
+
+.shipping-free div p {
+    font-weight: bold;
+    margin-left: 175px;
+}
+
+.shipping-free span p {
+    font-weight: bold;
+    color: var(--discount);
+    margin-left: 4rem;
+}
+
+.price-total {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid var(--primary);
+}
+
+.price-total div p {
+    font-weight: bold;
+    margin-left: 185px;
+}
+
+.price-total span p {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 75px;
+}
+
+input {
+    width: 398px;
+    height: 48px;
+    background-color: var(--jackets);
+    position: relative;
+    font-size: 1rem;
+}
+
+select {
+    z-index: 10;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 0.9rem;
+    border: none;
+    background-color: var(--jackets);
+}
+
+form select {
+    display: flex;
+}
+
+
+
+

@@ -168,12 +168,20 @@ h2 {
         height: 70px;
     }
 
+    .similar-products h2 {
+        font-size: 3rem;
+    }
+
     .former-price {
         margin-bottom: 2rem;
     }
 
     .former-price p {
         font-size: 3rem;
+    }
+
+    .product-image {
+        margin-top: 16px;
     }
     
     .product-image img {
@@ -204,11 +212,11 @@ h2 {
     }
 
     .see-similar {
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .mobile-hide {
         display: flex;
-        gap: 1rem;
+        gap: 2rem;
     }
 }
