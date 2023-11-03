@@ -1,0 +1,214 @@
+:root {
+    --primary: #1E1E1E;
+    --secondary: #FFFFFF;
+    --tertiary: #285641;
+    --quadratory: #FABE79;
+    --jackets: #EBEBEB;
+    --discount: #E54B33;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.product-image {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem 0 1rem;
+}
+
+.product-image img {
+    width: 100vw;
+}
+
+.product-info {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.product-info h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--tertiary);
+    margin: 1.5rem 0 1rem 1rem;
+}
+
+.former-price {
+    display: flex;
+    justify-content: flex-start;
+    width: 227px;
+    height: 41px;
+    margin: 0 0 0 1rem;
+    gap: 24px;
+}
+
+.former-price p {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.former-price :nth-child(1) {
+    color: var(--discount);
+}
+
+.former-price :nth-child(2) {
+    text-decoration: line-through;
+}
+
+.specific-sizes {
+    width: 398px;
+    height: 48px;
+}
+
+.specific-sizes ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px; 
+    font-size: 20px;
+    margin: 1rem 0 0 1rem;
+    padding: 0;
+}
+
+.specific-sizes li {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.desktop-layout {
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    margin: 1rem 0 1rem 1rem;
+}
+
+form select {
+    width: 60px;
+    height: 54px;
+    font-size: 2rem;
+}
+
+form input {
+    width: 330px;
+    height: 54px;
+    margin-left: 8px;
+    font-size: 32px;
+    background-color: var(--tertiary);
+    color: var(--secondary);
+    border: 1px solid var(--primary);
+}
+
+article {
+    margin: 1rem 0 1rem 1rem;
+}
+
+article h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+h2 {
+    margin-left: 1rem;
+}
+
+.see-similar {
+    display: flex;
+}
+
+.mobile-hide {
+    display: none;
+}
+
+.elite-jacket {
+    margin-left: 1rem;
+    position: relative;
+}
+
+.elite-jacket span {
+    color: var(--discount);
+}
+
+.heart-one {
+    position: absolute;
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* Your styles for the extra large breakpoint here */
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        font-size: 2rem;
+    }
+
+    article h2 {
+        font-size: 2rem;
+    }
+
+    form input {
+        width: 600px;
+        height: 70px;
+    }
+
+    form select {
+        height: 70px;
+    }
+
+    .former-price {
+        margin-bottom: 2rem;
+    }
+
+    .former-price p {
+        font-size: 3rem;
+    }
+    
+    .product-image img {
+        width: 40vw;
+    }
+    
+    .product-info {
+        justify-content: center;
+    }
+
+    .product-info h3 {
+        font-size: 3rem;
+    }
+
+    .desktop-layout {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 2rem;
+        flex-direction: row;
+    }
+
+    .desktop-layout ul li {
+        font-size: 2rem;
+    }
+
+    .desktop-layout input {
+        align-items: flex-start;
+    }
+
+    .see-similar {
+        gap: 1rem;
+    }
+
+    .mobile-hide {
+        display: flex;
+        gap: 1rem;
+    }
+}
