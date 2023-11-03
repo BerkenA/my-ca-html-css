@@ -1,0 +1,282 @@
+:root {
+    --primary: #1E1E1E;
+    --secondary: #FFFFFF;
+    --tertiary: #285641;
+    --quadratory: #FABE79;
+    --jackets: #EBEBEB;
+    --discount: #E54B33;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+.checkout-order p {
+    font-size: 1rem;
+}
+
+.checkout-order h2 {
+    margin-left: 1rem;
+}
+
+.rainy-fem {
+    display: flex;
+    border-top: 1px solid var(--primary);
+}
+
+.rainy-fem img {
+    margin: 1rem 0 1rem 1rem;
+}
+
+.elite-jacket {
+    display: flex;
+    border-top: 1px solid var(--primary);
+}
+
+.elite-jacket img {
+    margin: 1rem 0 1rem 1rem;
+}
+
+.jacket-amount  {
+    display: flex;
+    gap: 3rem;
+}
+
+.jacket-amount div :nth-child(1) {
+    font-weight: bold;
+}
+
+.jacket-amount span :nth-child(2) {
+    text-decoration: line-through;
+}
+
+.jacket-amount span :nth-child(1) {
+    font-weight: bold;
+}
+
+.jacket-amount span :nth-child(3) {
+    color: var(--discount);
+    font-weight: bold;
+}
+
+.elite-jacket {
+    border-bottom: 1px solid var(--primary);
+}
+
+.jacket-text {
+    display: flex;
+    gap: 3rem;
+}
+
+.jacket-text span {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.jacket-text span :nth-child(1) {
+    font-weight: bold;
+}
+
+.jacket-text div :nth-child(1) {
+    font-weight: bold;
+}
+
+.shipping-free {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid var(--primary);
+}
+
+.shipping-free div p {
+    font-weight: bold;
+    margin-left: 175px;
+}
+
+.shipping-free span p {
+    font-weight: bold;
+    color: var(--discount);
+    margin-left: 4rem;
+}
+
+.price-total {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid var(--primary);
+}
+
+.price-total div p {
+    font-weight: bold;
+    margin-left: 185px;
+}
+
+.price-total span p {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 75px;
+}
+
+input {
+    width: 398px;
+    height: 48px;
+    background-color: var(--jackets);
+    position: relative;
+    font-size: 1rem;
+}
+
+select {
+    z-index: 10;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 0.9rem;
+    border: none;
+    background-color: var(--jackets);
+}
+
+.bill-info {
+    margin-left: 1rem;
+}
+
+form {
+    margin: 0 1rem 0 1rem;
+}
+
+form select {
+    display: flex;
+}
+
+
+.radio-select {
+    margin-top: 1rem;
+    width: 20px;
+    height: 20px;
+}
+
+.buttons-radio {
+    margin: 0 1rem 1rem 1rem;
+}
+
+.buttons-radio p {
+    display: inline;
+}
+
+.buttons-radio input {
+    margin-top: 1rem;
+}
+
+.check-succ img {
+    margin: 0 1rem 0 1rem;
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* Your styles for the extra large breakpoint here */
+    .rainy-fem {
+        justify-content: space-between;
+    }
+
+    .jacket-amount {
+        margin-right: 2rem;
+        gap: 43rem;
+    }
+
+    .jacket-amount p {
+        font-size: 2rem;
+    }
+
+    .jacket-text {
+        margin-right: 2rem;
+        gap: 40rem;
+    }
+
+    .jacket-text p {
+        font-size: 2rem;
+    }
+
+    .jacket-text span {
+        gap: 2.5rem;
+    }
+
+    .elite-jacket {
+        justify-content: space-between;
+    }
+
+    .shipping-free {
+        justify-content: space-between;
+        margin-right: 28px;
+    }
+
+    .shipping-free p {
+        font-size: 2rem;
+    }
+
+    .shipping-free div p {
+        margin-left: 264px;
+    }
+
+    .shipping-free span {
+        margin-right: 5rem;
+    }
+
+    .price-total {
+        gap: 617px;
+    }
+
+    .price-total div p {
+        margin-left: 252px;
+    }
+
+    .price-total span p {
+        margin-right: 73px;
+    }
+
+    .price-total p {
+        font-size: 2rem;
+    }
+    
+    .checkout-order h2 {
+        font-size: 3rem;
+    }
+    
+    form input {
+        width: 100%;
+        height: 64px;
+    }
+
+    form input::placeholder {
+        font-size: 2rem;
+    }
+
+    form h4 {
+        font-size: 2rem;
+    }
+
+    .buttons-radio {
+        margin: 2rem 0 2rem 1rem;
+    }
+
+    .buttons-radio p {
+        font-size: 2rem;
+    }
+
+    .check-succ {
+        display: flex;
+        justify-content: center;
+    }
+
+    .check-succ img {
+        width: 50%;
+    }
+
+    .bill-info h2 {
+        font-size: 3rem;
+    }
+}
+
