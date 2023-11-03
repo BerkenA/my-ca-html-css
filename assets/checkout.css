@@ -175,3 +175,108 @@ form select {
     margin: 0 1rem 0 1rem;
 }
 
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* Your styles for the extra large breakpoint here */
+    .rainy-fem {
+        justify-content: space-between;
+    }
+
+    .jacket-amount {
+        margin-right: 2rem;
+        gap: 43rem;
+    }
+
+    .jacket-amount p {
+        font-size: 2rem;
+    }
+
+    .jacket-text {
+        margin-right: 2rem;
+        gap: 40rem;
+    }
+
+    .jacket-text p {
+        font-size: 2rem;
+    }
+
+    .jacket-text span {
+        gap: 2.5rem;
+    }
+
+    .elite-jacket {
+        justify-content: space-between;
+    }
+
+    .shipping-free {
+        justify-content: space-between;
+        margin-right: 28px;
+    }
+
+    .shipping-free p {
+        font-size: 2rem;
+    }
+
+    .shipping-free div p {
+        margin-left: 264px;
+    }
+
+    .shipping-free span {
+        margin-right: 5rem;
+    }
+
+    .price-total {
+        gap: 617px;
+    }
+
+    .price-total div p {
+        margin-left: 252px;
+    }
+
+    .price-total span p {
+        margin-right: 73px;
+    }
+
+    .price-total p {
+        font-size: 2rem;
+    }
+    
+    .checkout-order h2 {
+        font-size: 3rem;
+    }
+    
+    form input {
+        width: 100%;
+        height: 64px;
+    }
+
+    form input::placeholder {
+        font-size: 2rem;
+    }
+
+    form h4 {
+        font-size: 2rem;
+    }
+
+    .buttons-radio {
+        margin: 2rem 0 2rem 1rem;
+    }
+
+    .buttons-radio p {
+        font-size: 2rem;
+    }
+
+    .check-succ {
+        display: flex;
+        justify-content: center;
+    }
+
+    .check-succ img {
+        width: 50%;
+    }
+
+    .bill-info h2 {
+        font-size: 3rem;
+    }
+}
+
