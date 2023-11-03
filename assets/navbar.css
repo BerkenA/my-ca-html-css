@@ -102,6 +102,10 @@ nav {
         font-weight: 400;
     }
 
+    .desktop-menu a {
+        font-size: 1.6rem;
+    }
+
     .desktop-menu:hover {
         cursor: pointer;
     }
