@@ -20,6 +20,8 @@ body {
 
 .main-container img {
     position: relative;
+    height: 78vh;
+    width: 100vw;
 }
 
 .main-container article {
@@ -58,7 +60,7 @@ body {
     /* Your styles for the extra large breakpoint here */
     .main-container img {
         width: 100vw;
-        height: auto;
+        height: 78vh;
     }
 
     .shadow-tilt {
