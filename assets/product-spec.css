@@ -101,6 +101,10 @@ form select {
     border: 1px solid var(--primary);
 }
 
+form select input {
+    width: 60px;
+}
+
 form input {
     width: 330px;
     height: 54px;
@@ -202,7 +206,7 @@ h2 {
     }
 
     .product-info h3 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .desktop-layout {

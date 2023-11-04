@@ -1,0 +1,54 @@
+:root {
+    --primary: #1E1E1E;
+    --secondary: #FFFFFF;
+    --tertiary: #285641;
+    --quadratory: #FABE79;
+    --jackets: #EBEBEB;
+    --discount: #E54B33;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+.main-container img {
+    position: relative;
+}
+
+.main-container article {
+    position: absolute;
+    top: 1rem;
+    height: 1200px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: var(--secondary);
+    font-size: 1.25rem;
+}
+
+.main-container article h3 {
+    margin: 2rem 0 0 0;
+}
+
+.shadow-tilt {
+    position: absolute;
+    top: 94px;
+    width: 100vw;
+    height: 1330px;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.shadow-tilt article :nth-child(1) {
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.shadow-tilt article :nth-child(8) {
+    margin-top: 4rem;
+}
