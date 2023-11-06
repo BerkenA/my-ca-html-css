@@ -55,6 +55,10 @@ body {
     margin-top: 1rem;
 }
 
+.sections a {
+    text-decoration: none;
+}
+
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
     /* Your styles for the extra large breakpoint here */

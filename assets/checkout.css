@@ -18,6 +18,11 @@ body {
     overflow: scroll;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 .checkout-order p {
     font-size: 1rem;
 }
