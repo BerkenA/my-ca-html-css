@@ -18,9 +18,7 @@ body {
     overflow: scroll;
 }
 
-a {
-    text-decoration: none;
-}
+
 
 
 .checkout-order p {
@@ -231,7 +229,9 @@ form select {
     }
 
     .price-total {
-        gap: 617px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--primary);
     }
 
     .price-total div p {
