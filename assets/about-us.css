@@ -18,10 +18,16 @@ body {
     overflow: scroll;
 }
 
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
 .main-container img {
     position: relative;
     height: 78vh;
     width: 100vw;
+    object-fit: cover;
 }
 
 .main-container article {
@@ -43,12 +49,13 @@ body {
     top: 94px;
     width: 100vw;
     height: 78vh;
-    background-color: rgba(0, 0, 0, 0.24);
+    background-color: rgba(0, 0, 0, 0.374);
 }
 
 .shadow-tilt article :nth-child(1) {
     font-size: 32px;
     margin-top: 0;
+    text-align: center;
 }
 
 .shadow-tilt article :nth-child(8) {
@@ -75,5 +82,9 @@ body {
         margin: 2rem 2rem 0 2rem;
         height: auto;
         font-size: 1.5rem;
+    }
+
+    .shadow-tilt article :nth-child(8) {
+        margin-top: 4rem;
     }
 }
