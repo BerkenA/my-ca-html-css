@@ -141,6 +141,7 @@ a {
     background-color: var(--quadratory);
     width: 183px;
     height: 45px;
+    font-size: 1rem;
 }
 
 .picture-second img {
@@ -205,6 +206,22 @@ a {
 
 .elite-jacket {
     position: relative;
+    text-align: center;
+}
+
+.elite-jacket h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--tertiary);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    border-bottom: 1px solid var(--primary);
+}
+
+.elite-jacket div {
+    text-decoration: line-through;
 }
 
 .elite-jacket span {
@@ -220,7 +237,7 @@ a {
     }
 
     .main-picture-home h1 {
-        color: var(--primary);
+        color: #374151;
         font-size: 2rem;
     }
 
@@ -234,6 +251,7 @@ a {
     .sales-carussell {
         gap: 3rem;
     }
+    
 
     .second-pic-home img {
         display: none;
@@ -246,7 +264,7 @@ a {
     }
 
     .second-pic-home h2 {
-        color: var(--primary);
+        color: #374151;
         font-size: 2rem;
     }
     
@@ -260,9 +278,17 @@ a {
         align-items: center;
     }
 
+    .popular-jackets h2 {
+        font-size: 2rem;
+    }
+
     .sales-jackets {
         display: flex;
         align-items: center;
+    }
+
+    .sales-jackets h2 {
+        font-size: 2rem;
     }
 
     .buttons-shop {
@@ -271,7 +297,7 @@ a {
     }
 
     .buttons-shop button {
-        font-size: 1rem;
+        font-size: 1.5rem;
         width: 300px;
         height: 60px;
     }

@@ -18,6 +18,11 @@ body {
     overflow: scroll;
 }
 
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
 .checkout-yay {
     display: flex;
     justify-content: center;

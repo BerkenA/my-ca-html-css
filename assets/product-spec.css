@@ -19,6 +19,11 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
 .product-image {
     display: flex;
     justify-content: center;

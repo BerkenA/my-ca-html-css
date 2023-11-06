@@ -16,11 +16,20 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
 .top-footer {
     border-top: 1px solid var(--primary);
     border-bottom: 1px solid var(--primary);
     margin: 56px 16px 16px 16px;
     padding-bottom: 32px;
+}
+
+.top-footer li {
+    font-size: 1.5rem;
 }
 
 .sections {
