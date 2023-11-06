@@ -98,6 +98,11 @@ form select {
     width: 60px;
     height: 54px;
     font-size: 2rem;
+    border: 1px solid var(--primary);
+}
+
+form select input {
+    width: 60px;
 }
 
 form input {
@@ -138,6 +143,14 @@ h2 {
 
 .elite-jacket span {
     color: var(--discount);
+}
+
+.special-price h4 {
+    text-decoration: line-through;
+}
+
+.for-you h4 {
+    text-decoration: line-through;
 }
 
 .heart-one {
@@ -193,7 +206,7 @@ h2 {
     }
 
     .product-info h3 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .desktop-layout {
@@ -212,11 +225,24 @@ h2 {
     }
 
     .see-similar {
-        gap: 2rem;
+        gap: 3rem;
+        font-size: 1.5rem;
+    }
+
+    .see-similar h3 {
+        color: var(--tertiary);
     }
 
     .mobile-hide {
         display: flex;
-        gap: 2rem;
+        gap: 3rem;
+    }
+
+    .before-price h4 {
+        text-decoration: line-through;
+    }
+
+    .price-for h4 {
+        text-decoration: line-through;
     }
 }

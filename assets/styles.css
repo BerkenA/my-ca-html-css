@@ -18,6 +18,11 @@ body {
     overflow: scroll;
 }
 
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
 /* Here are my styles for my main picture */
 .main-picture-home {
     display: flex;
