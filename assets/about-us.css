@@ -41,7 +41,7 @@ a {
 }
 
 .main-container article h3 {
-    margin: 2rem 0 0 0;
+    margin: 1rem 0 0 0;
 }
 
 .shadow-tilt {
@@ -71,11 +71,11 @@ a {
     /* Your styles for the extra large breakpoint here */
     .main-container img {
         width: 100vw;
-        height: 78vh;
+        height: 95vh;
     }
 
     .shadow-tilt {
-        height: 78vh;
+        height: 95vh;
     }
 
     .shadow-tilt article {
