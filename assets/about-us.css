@@ -71,11 +71,11 @@ a {
     /* Your styles for the extra large breakpoint here */
     .main-container img {
         width: 100vw;
-        height: 95vh;
+        height: 143vh;
     }
 
     .shadow-tilt {
-        height: 95vh;
+        height: 143vh;
     }
 
     .shadow-tilt article {
