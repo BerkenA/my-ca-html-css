@@ -25,7 +25,7 @@ a {
 
 .main-container img {
     position: relative;
-    height: 78vh;
+    height: 156vh;
     width: 100vw;
     object-fit: cover;
 }
@@ -48,7 +48,7 @@ a {
     position: absolute;
     top: 94px;
     width: 100vw;
-    height: 78vh;
+    height: 156vh;
     background-color: rgba(0, 0, 0, 0.374);
 }
 
