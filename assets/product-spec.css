@@ -137,6 +137,11 @@ h2 {
     display: flex;
 }
 
+.see-similar h3 {
+    color: var(--tertiary);
+    font-size: 30px;
+}
+
 .mobile-hide {
     display: none;
 }
@@ -144,6 +149,7 @@ h2 {
 .elite-jacket {
     margin-left: 1rem;
     position: relative;
+    text-align: center;
 }
 
 .elite-jacket span {
