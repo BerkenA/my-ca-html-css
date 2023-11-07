@@ -140,6 +140,7 @@ h2 {
 .see-similar h3 {
     color: var(--tertiary);
     font-size: 30px;
+    border-bottom: 1px solid var(--primary);
 }
 
 .mobile-hide {
